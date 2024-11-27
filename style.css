@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#out{
+    border: solid 1px;
+    height: 780px;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 850px;
+}
+h1{
+    color: rgb(236, 220, 78);
+    font-size: 120px;
+    font-style: oblique;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+#register,#login{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(63, 135, 202);
+}
+#register{
+    margin-left: 400px;
+}
+#register a,#login a{
+    color: rgb(206, 219, 17);
+    font-size: 25px;
+    text-decoration: none;
+}
+#register:hover{
+background-color: rgb(30, 97, 16);
+}
+#login:hover{
+    background-color: rgb(18, 148, 40);
+}
